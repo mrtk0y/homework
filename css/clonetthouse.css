@@ -1,0 +1,153 @@
+/* Layout */
+.homepage, header{
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background: url("/picture/background1.png") center center ;
+    
+}
+
+/* ---- Video ---- */
+
+span > p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+
+
+/* End Video */
+
+/* Get carrer section */
+h5 {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.video {
+    float: left;
+}
+
+.skills-img {
+    width: 5em;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    margin: auto;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 0 1em;
+}
+/* FLex item1 at the brand */
+.flex-items {
+    padding: 0 10px;
+    margin: 2em;
+    flex-grow: 1;
+    flex-basis: 26%;
+    border-left: solid 7px #456DAB;
+    box-shadow: 0 2px 0 rgb(0,0,0,0.1);
+    align-self: stretch;
+    border-radius: 4px;
+}
+
+.flex-items:nth-child(5),.flex-items:nth-child(4) {
+    /* flex-shrink: 1; */
+    flex-grow: 0;
+}
+
+.flex-item1 {
+    flex: 1;
+    margin: auto;
+    flex-basis: 40%;
+}
+
+/* End Get Carrer Section */
+
+/* Clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Common */
+* {
+    box-sizing: border-box;
+}
+
+input {
+    display: block;
+}
+
+button {
+    width: 100%;
+    height: 3em;
+    background: #456DAB;
+    border: none;
+}
+
+div {
+    align-items: center;
+}
+
+.display-inl-bl {
+    display: inline-block;
+}
+
+.w-60 {
+    width: 80%;
+}
+/* Form */
+#form1 {
+    margin: 1em auto;
+    padding: 2em;
+    background: whitesmoke;
+}
+
+#form-heading {
+    color: red;
+    text-align: center;
+}
+
+#form-heading span {
+    color: black;
+}
+
+#column1 {
+    float: left;
+    width: 50%;
+}
+
+#column2 {
+    float: right;
+    width: 50%;
+    border-left: solid 1px white;
+}
+
+#email, #firstname, #lastname {
+    background-color:lightgray;
+    height: 3em;
+    border: none;
+}
+
+#firstname, #lastname {
+    width: 100%;
+}
+
+#email {
+    width: 100%;
+}
+
+#condition {
+    display: inline;
+}
+/* End Form */
